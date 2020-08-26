@@ -4,8 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-  <style>html{position: relative;min-height: 100%;}html,body{height:100%}body{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;padding-top:40px;padding-bottom:40px;background-color:#f5f5f5;margin-bottom: 60px}.fuckrkn{width:100%;max-width:600px;padding:15px;margin:auto}.fuckrkn .checkbox{font-weight:400}.fuckrkn .form-control{position:relative;box-sizing:border-box;height:auto;padding:10px;font-size:16px;border-radius: 4px 4px 0 0}.footer{position:absolute;bottom:0;width:100%;height:60px;line-height:60px;}</style>
+  <style>html{position: relative;min-height: 100%;}html,body{height:100%}body{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;padding-top:40px;padding-bottom:0px;background-color:#f5f5f5;margin-bottom: 60px}.fuckrkn{width:100%;max-width:600px;padding:15px;margin:auto}.fuckrkn .checkbox{font-weight:400}.fuckrkn .form-control{position:relative;box-sizing:border-box;height:auto;padding:10px;font-size:16px;border-radius: 4px 4px 0 0}.footer{position:absolute;bottom:0;width:100%;height:60px;line-height:60px;}</style>
   <style>.footer, .footer a{}</style>
+  <script src="./likely.js"></script>
+  <link rel="stylesheet" href="./likely.css">
   <title>Очень важный документ</title>
 </head>   
 <body class="text-center">
@@ -15,13 +17,19 @@
       get_random = function (list) {
         return list[Math.floor((Math.random()*list.length))];
       }
-    
     document.getElementById("textplace").innerHTML=get_random(["Хватит ныть!","Давай работай!","Ленивая задница!","Соберись, тряпка!","Отмазки нахуй!","Хорош хитрожопить!","Кукурузу охраняешь?"])
     </script>
   </div>
   <footer class="footer">
     <div class="container">
-      <span class="">Здесь будет кнопка для шеринга</span>
+      <div class="likely">
+        <div class="twitter"></div>
+        <div class="telegram"></div>
+        <div class="facebook"></div>
+        <div class="vkontakte"></div>
+        <div class="odnoklassniki"></div>
+        <div class="whatsapp"></div>
+      </div>
     </div>
   </footer>
 </body>
