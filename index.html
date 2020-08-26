@@ -8,6 +8,10 @@
   <style>.footer, .footer a{}</style>
   <script src="./likely.js"></script>
   <script src="./konami.js"></script>
+  <script>
+      var easter_egg = new Konami();
+      easter_egg.load("https://youtu.be/0Q2q2yr9MBc?t=580");
+  </script>
   <link rel="stylesheet" href="./likely.css">
   <title>Очень важный документ</title>
 </head>   
@@ -18,7 +22,6 @@
       get_random = function (list) {
         return list[Math.floor((Math.random()*list.length))];
       }
-      var easter_egg = new Konami('https://youtu.be/0Q2q2yr9MBc?t=580');
     document.getElementById("textplace").innerHTML=get_random(["Хватит ныть!","Давай работай!","Ленивая задница!","Соберись, тряпка!","Отмазки нахуй!","Хорош хитрожопить!","Кукурузу охраняешь?"])
     </script>
   </div>
