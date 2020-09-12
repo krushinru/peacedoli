@@ -3,22 +3,31 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-  <style>html{position: relative;min-height: 100%;}html,body{height:100%}body{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;padding-top:40px;padding-bottom:0px;background-color:#f5f5f5;}.fuckrkn{width:100%;max-width:600px;padding:15px;margin:auto}.fuckrkn .checkbox{font-weight:400}.fuckrkn .form-control{position:relative;box-sizing:border-box;height:auto;padding:10px;font-size:16px;border-radius: 4px 4px 0 0}.footer{position:absolute;bottom:0;width:100%;height:60px;line-height:60px;}</style>
-  <style>.footer, .footer a{}</style>
-  <script src="./likely.js"></script>
-  <link rel="stylesheet" href="./likely.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/likely.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/likely.css">
+  <!-- Primary Meta Tags -->
   <title>Очень важный документ</title>
+  <meta name="title" content="Очень важный документ">
+  <meta name="description" content="Инструкция на все случаи жизни">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pizdu.li/">
+  <meta property="og:title" content="Очень важный документ">
+  <meta property="og:description" content="Инструкция на все случаи жизни">
+  <meta property="og:image" content="./images/card.png">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://pizdu.li/">
+  <meta property="twitter:title" content="Очень важный документ">
+  <meta property="twitter:description" content="Инструкция на все случаи жизни">
+  <meta property="twitter:image" content="./images/card.png">
 </head>   
 <body class="text-center">
   <div class="fuckrkn">
     <h1 id="textplace">Соберись!</h1>
-    <script>
-      get_random = function (list) {
-        return list[Math.floor((Math.random()*list.length))];
-      }
-    document.getElementById("textplace").innerHTML=get_random(["$, хватит ныть!","Давай работай, $!","$, хорош хитрожопить!", "$, давай ты не будешь тупить!", "Я все вижу, $!"]).replace("$",decodeURI(window.location.pathname.split("/")[1]))
-    </script>
+    <script src="./js/app.js"></script>
   </div>
   <footer class="footer">
     <div class="container">
@@ -32,5 +41,8 @@
       </div>
     </div>
   </footer>
+  <script>
+    !function(n){function t(t){var e;t.which===o[i]?i++:i=0,s<=i&&((e=new Image).src=l,e.style.width="250px",e.style.height="250px",e.style.transition="1s all",e.style.position="fixed",e.style.left="calc(100% - 210px)",e.style.bottom="-250px",e.style.zIndex=999999,document.body.appendChild(e),n.setTimeout(function(){e.style.bottom="0px"},50),n.setTimeout(function(){e.style.bottom="-250px"},2300),n.setTimeout(function(){e.parentNode.removeChild(e)},3400),i=0)}var o=[65,82,65,77],i=0,s=o.length,l="./aram.png";document.addEventListener("keyup",t)}(window);
+</script>
 </body>
 </html>
